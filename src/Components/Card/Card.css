@@ -1,0 +1,45 @@
+.cardContainer{
+    background-color: white;
+    width: 23%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 24px;
+    margin-bottom: 20px;
+}
+.card_img{
+    background-color: lightgray;
+    height: 240px;
+    width: 240px;
+    display: block;
+}
+.card_Header{
+    color: darkslateblue;
+    font-weight: bold;
+}
+.value{
+    color: darkslateblue;
+}
+@media only screen and (max-width: 700px) {
+    .cardContainer{
+        width: 100%;
+    }
+    .card_img{
+        width: 300px;
+    }
+  }
+  @media only screen and (min-width: 700px ) and (max-width: 1024px ) {
+    .cardContainer{
+        width: 45%;
+    }
+    .card_img{
+        width: 190px;
+    }
+  }
+  @media only screen and (min-width: 1024px ) and (max-width: 1440px ) {
+    .cardContainer{
+        width: 22%;
+    }
+    .card_img{
+        width: 190px;
+    }
+  }

@@ -1,0 +1,38 @@
+.sub_headers{
+    font-size: 1rem;
+    background-color: white;
+    font-weight: bold;
+}
+.filter_container{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.filter_inner_container{
+    text-align: center;
+}
+
+hr{
+    width: 10rem;
+}
+.cellContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.cell{
+    width: 4rem;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.active{
+    opacity: 1;
+}
+.hide{
+    visibility: hidden;
+}
+.label{
+    margin-top: 15px;
+}
